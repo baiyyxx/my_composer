@@ -10,7 +10,7 @@
 require_once './vendor/autoload.php';
 $array = [
     [
-        'name' => 'baiyang', 'age' => 28
+        'name' => 'baiyang', 'age' => 28,
     ],
     [
         'name' => '白银', 'age' => 29,
@@ -23,9 +23,8 @@ $array = [
     ],
 ];
 
-echo '<pre>';
-print_r($array);
-echo '<pre/>';
-
+fp($array);
+echo '<hr>';
+bd($array);
+echo '<hr>';
 dd($array);
-?>

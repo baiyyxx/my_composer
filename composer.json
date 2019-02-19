@@ -1,6 +1,6 @@
 {
     "require": {
-        "appbolaget/dd": "^1.1",
+        "baiyang/fp": "1.0",
         "phpmailer/phpmailer": "^6.0"
     },
     "repositories": {
@@ -10,3 +10,4 @@
         }
     }
 }
+
